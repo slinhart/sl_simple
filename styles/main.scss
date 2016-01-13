@@ -1,8 +1,41 @@
+/*
+	to build...
+	sass --watch main.scss:main.css
+*/
+$text-color: #576366;
+$header-color: #384047;
+$header-height: 90px;
+
+
 body {
 	margin: 0;
 }
 
 .fixed-bar {
-	height: 20px;
-	background-color: red;
+	height: $header-height;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 15px;
+	border-bottom: 1px solid $header-color;
+}
+
+.hamburger-wrapper {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+}
+.hamburger-nav-btn {
+	height: $header-height;
+	width: $header-height;
+	font-size: 54px;
+}
+
+.primary-header {
+	display: inline;
+	font-size: 54px;
+	color: $header-color;
+	text-align: center;
+	vertical-align: middle;
 }
