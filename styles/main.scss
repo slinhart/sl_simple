@@ -18,6 +18,7 @@ body {
 	vertical-align: middle;
 	padding-top: 15px;
 	border-bottom: 1px solid $header-color;
+	box-shadow: 0 1px 2px $header-color;
 }
 
 .hamburger-wrapper {
@@ -27,10 +28,18 @@ body {
 	left: 0;
 }
 .hamburger-nav-btn {
-	height: $header-height;
+	height: $header-height - 1; /* -1 to avoid overlap with border-bottom */
 	width: $header-height;
 	font-size: 54px;
+	border-radius: 4px;
+
+	&:focus,
+	&:active,
+	&:active:focus {
+		outline: none;
+	}
 }
+
 
 .primary-header {
 	display: inline;

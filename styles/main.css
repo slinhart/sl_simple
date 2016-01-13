@@ -11,7 +11,8 @@ body {
   text-align: center;
   vertical-align: middle;
   padding-top: 15px;
-  border-bottom: 1px solid #384047; }
+  border-bottom: 1px solid #384047;
+  box-shadow: 0 1px 2px #384047; }
 
 .hamburger-wrapper {
   position: absolute;
@@ -20,9 +21,13 @@ body {
   left: 0; }
 
 .hamburger-nav-btn {
-  height: 90px;
+  height: 89px;
+  /* -1 to avoid overlap with border-bottom */
   width: 90px;
-  font-size: 54px; }
+  font-size: 54px;
+  border-radius: 4px; }
+  .hamburger-nav-btn:focus, .hamburger-nav-btn:active, .hamburger-nav-btn:active:focus {
+    outline: none; }
 
 .primary-header {
   display: inline;
