@@ -3,7 +3,31 @@
 	sass --watch main.scss:main.css
 */
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: ProximaNovaA-Bold;
+  font-weight: 800; }
+
+.center-helper {
+  position: relative; }
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%); }
 
 .fixed-bar {
   height: 90px;
@@ -35,5 +59,40 @@ body {
   color: #384047;
   text-align: center;
   vertical-align: middle; }
+
+.hidden {
+  display: hidden; }
+
+.block {
+  display: block; }
+
+.inline-block {
+  display: inline-block; }
+
+.inline {
+  display: inline; }
+
+.main-content {
+  background-color: #E7E7E7; }
+
+.i-write-code-section {
+  height: 150px;
+  position: relative; }
+
+.i-write-code {
+  display: inline-block;
+  width: 100%;
+  text-align: center; }
+
+.vertical-slider {
+  display: inline-block; }
+
+.code-quality {
+  display: inline-block;
+  font-size: 44px; }
+
+.large-inline {
+  display: inline;
+  font-size: 44px; }
 
 /*# sourceMappingURL=main.css.map */
