@@ -14,13 +14,19 @@
 	
 	shuffle(words);
 
-	// var colors = [];
+	var colors = [
+		'#39ADD1',
+		'#71DB8C',
+		'#7D669E',
+		'#FFD34E'
+	];
+	shuffle(colors);
 
 	// build nodes, append them
 	var $nodes = [];
 	$vs.html();
 	$.each(words, function(w) {
-		var $n = $('<div class="code-quality">' + words[w] + '</div>');
+		var $n = $('<div class="code-quality" style="color:' + colors[w % colors.length] + '">' + words[w] + '</div>');
 		$n.addClass('hidden');
 		$nodes.push($n);
 		$vs.append($n);
@@ -33,7 +39,6 @@
 	}, 1000);
 
 	function slideword() {
-		console.log(i);
 		$nodes[i].addClass('hidden');
 		(i<words.length-1) ? i++ : i=0;
 		$nodes[i].removeClass('hidden');
