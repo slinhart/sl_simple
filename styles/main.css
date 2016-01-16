@@ -7,6 +7,9 @@ body {
   font-family: ProximaNovaA-Bold;
   font-weight: 800; }
 
+.small-text {
+  font-size: 34px !important; }
+
 .center-helper {
   position: relative; }
 
@@ -84,6 +87,13 @@ body {
   width: 100%;
   text-align: center; }
 
+.vertical-slider-container {
+  display: inline-block;
+  width: 280px;
+  height: 55px;
+  background-color: white;
+  /*overflow:hidden;*/ }
+
 .vertical-slider {
   display: inline-block; }
 
@@ -93,6 +103,6 @@ body {
 
 .large-inline {
   display: inline;
-  font-size: 44px; }
+  font-size: 48px; }
 
 /*# sourceMappingURL=main.css.map */

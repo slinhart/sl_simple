@@ -8,7 +8,9 @@
 		'readable',
 		'scalable',
 		'plugable',
-		'efficient'
+		'efficient',
+		'predictable',
+		'reusable'
 	];
 	// shuffle list for random order each time page loads
 	
@@ -24,7 +26,7 @@
 
 	// build nodes, append them
 	var $nodes = [];
-	$vs.html();
+	$nodes.push($vs.find(".code-quality"));
 	$.each(words, function(w) {
 		var $n = $('<div class="code-quality" style="color:' + colors[w % colors.length] + '">' + words[w] + '</div>');
 		$n.addClass('hidden');
@@ -36,11 +38,11 @@
 
 	window.setInterval(function() {
 		slideword();
-	}, 1000);
+	}, 1300);
 
 	function slideword() {
 		$nodes[i].addClass('hidden');
-		(i<words.length-1) ? i++ : i=0;
+		(i<$nodes.length-1) ? i++ : i=0;
 		$nodes[i].removeClass('hidden');
 	}
 
