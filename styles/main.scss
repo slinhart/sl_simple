@@ -4,7 +4,7 @@
 */
 $text-color: #576366;
 $header-color: #384047;
-$header-height: 90px;
+$header-height: 60px;
 $background-color: #E7E7E7;
 $font-family: ProximaNovaA-Bold;
 
@@ -13,8 +13,11 @@ body {
 	font-family: $font-family;
 	font-weight: 800;
 }
+.full-width {
+	width: 100%;
+}
 .small-text {
-	font-size: 34px !important ;
+	font-size: 20px !important ;
 }
 .center-helper {
 	position: relative;
@@ -58,7 +61,7 @@ body {
 .hamburger-nav-btn {
 	height: $header-height - 1; /* -1 to avoid overlap with border-bottom */
 	width: $header-height;
-	font-size: 54px;
+	font-size: 36px;
 	border-radius: 4px;
 
 	&:focus,
@@ -68,9 +71,13 @@ body {
 	}
 }
 
+.h1-padding {
+	padding-left: $header-height;
+}
+
 .primary-header {
 	display: inline;
-	font-size: 54px;
+	font-size: 32px;
 	color: $header-color;
 	text-align: center;
 	vertical-align: middle;
@@ -93,19 +100,21 @@ body {
 	background-color: $background-color;
 }
 .i-write-code-section {
-	height: 150px;
+	height: 110px;
 	position: relative;
 }
 .i-write-code {
 	display: inline-block;
+	height: 40px;
 	width:100%;
 	text-align: center;
 }
 .vertical-slider-container {
 	display: inline-block;
-	width: 280px;
-	height:55px;
+	width: 130px;
+	height:40px;
 	background-color: white;
+	border-radius: 4px;
 	/*overflow:hidden;*/
 }
 .vertical-slider {
@@ -113,9 +122,16 @@ body {
 }
 .code-quality {
 	display: inline-block;
-	font-size: 44px;
+	font-size: 26px;
 }
 .large-inline {
 	display: inline;
-	font-size: 48px;
+	font-size: 24px;
+}
+
+.slide-out {
+	
+}
+.slide-in {
+
 }

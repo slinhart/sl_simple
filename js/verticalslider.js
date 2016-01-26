@@ -24,11 +24,17 @@
 	];
 	shuffle(colors);
 
+	var smallText = [
+		'maintainable',
+		'predictable'
+	];
+
 	// build nodes, append them
 	var $nodes = [];
 	$nodes.push($vs.find(".code-quality"));
 	$.each(words, function(w) {
-		var $n = $('<div class="code-quality" style="color:' + colors[w % colors.length] + '">' + words[w] + '</div>');
+		var stxt = (smallText.indexOf(words[w]) > -1) ? 'small-text' : '';
+		var $n = $('<div class="code-quality ' + stxt + '" style="color:' + colors[w % colors.length] + '">' + words[w] + '</div>');
 		$n.addClass('hidden');
 		$nodes.push($n);
 		$vs.append($n);
@@ -41,9 +47,17 @@
 	}, 1300);
 
 	function slideword() {
-		$nodes[i].addClass('hidden');
+		var $out = $nodes[i];
+		$out.addClass('slide-out');
 		(i<$nodes.length-1) ? i++ : i=0;
-		$nodes[i].removeClass('hidden');
+		var $in = $nodes[i];
+		$nodes[i].removeClass('slide-in');
+		window.setTimeout(function() {
+			$out.addClass('hidden');
+			$out.removeClass('slide-out');
+			$in.addClass('slide-in');
+			$in.removeClass('hidden');
+		}, 1010);
 	}
 
 	// function taken straight from stackoverflow
