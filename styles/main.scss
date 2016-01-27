@@ -19,6 +19,10 @@ body {
 .small-text {
 	font-size: 20px !important ;
 }
+.content-wide {
+	display: inline-block;
+	max-width: 100%;
+}
 .center-helper {
 	position: relative;
 }
@@ -58,19 +62,21 @@ body {
 	bottom: 0;
 	left: 0;
 }
-.hamburger-nav-btn {
+.hamburger-wrapper .hamburger-nav-btn {
 	height: $header-height - 1; /* -1 to avoid overlap with border-bottom */
 	width: $header-height;
 	font-size: 36px;
 	border-radius: 4px;
+	background-image: url('../img/hamburger-background.png');
 
+	/* override unwanted .btn bootstrap styles */
 	&:focus,
 	&:active,
 	&:active:focus {
+		box-shadow: none;
 		outline: none;
 	}
 }
-
 .h1-padding {
 	padding-left: $header-height;
 }
@@ -134,4 +140,36 @@ body {
 }
 .slide-in {
 
+}
+
+
+/* About me Section */
+.about-me-section {
+	background-color: white;
+	padding: 20px 20px 5px 20px;
+	font-size: 16px;
+}
+.about-me {
+	margin: 0;
+}
+
+.coffee {
+	color: #2B1900;
+}
+.outdoors {
+	color: #061b06;
+}
+
+/* skills section */
+.skills-section {
+	padding: 5px;
+	text-align: center;
+	background-color: white;
+}
+.skills {
+	text-align: center;
+}
+.logo {
+	width: 95px;
+	margin: 15px;
 }
