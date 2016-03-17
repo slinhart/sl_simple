@@ -12,6 +12,7 @@ body {
 	margin: 0;
 	font-family: $font-family;
 	font-weight: 800;
+	min-width: 320px;
 }
 .full-width {
 	width: 100%;
@@ -64,10 +65,11 @@ body {
 }
 .hamburger-wrapper .hamburger-nav-btn {
 	height: $header-height - 1; /* -1 to avoid overlap with border-bottom */
-	width: $header-height;
+	width: $header-height + 15; /* more width for more clickable area */
 	font-size: 36px;
 	border-radius: 0;
-	background-image: url('../img/hamburger-background.png');
+	padding-right: 20px; /* again for more clickable area to right of button */
+	background-color: #FFF;
 
 	/* override unwanted .btn bootstrap styles */
 	&:focus,
@@ -117,7 +119,7 @@ body {
 	text-align: center;
 }
 .i-write-code-text {
-	vertical-align: top
+	vertical-align: top;
 }
 .vertical-slider-container {
 	display: inline-block;
@@ -141,6 +143,7 @@ body {
 .code-quality {
 	display: inline-block;
 	font-size: 26px;
+	vertical-align: bottom;
 }
 .large-text {
 	font-size: 24px;
@@ -155,32 +158,25 @@ body {
 
 
 /* About me Section */
-.about-me-section {
+.about-me-section-container {
 	background-color: white;
 	padding: 20px 20px 5px 20px;
+}
+.about-me-section {
 	font-size: 16px;
 }
-.about-me {
-	margin: 0;
-}
 
-.coffee {
-	color: #2B1900;
+/* Blog Articles Section */
+.blog-articles-section {
+	padding: 20px 20px 5px 20px;
 }
-.outdoors {
-	color: #061b06;
+.blog-articles-title {
+	text-decoration: underline;
 }
-
-/* skills section */
-.skills-section {
-	padding: 5px;
-	text-align: center;
-	background-color: white;
-}
-.skills {
-	text-align: center;
-}
-.logo {
-	width: 95px;
-	margin: 15px;
+.articles-container {
+	margin: 20px 20px 5px 20px;
+	padding: 5px 20px 5px 20px;
+	max-width: 800px;
+	background-color: #FFF;
+	border-radius: 16px;
 }
