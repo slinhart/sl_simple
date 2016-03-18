@@ -5,8 +5,11 @@
 $text-color: #576366;
 $header-color: #384047;
 $header-height: 60px;
-$background-color: #F3F3F3;
+$background-color: #DDDEDE;/*#F3F3F3;*/
 $font-family: ProximaNovaA-Bold;
+$deep-green: #0f1b07;
+$plants: #5c821a;
+$new-growth: #c6d166;
 
 body {
 	margin: 0;
@@ -45,6 +48,19 @@ body {
   -ms-transform: translateY(-50%);
  	-o-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.hidden {
+	display: none;
+}
+.block {
+	display: block;
+}
+.inline-block {
+	display: inline-block;
+}
+.inline {
+	display: inline;
 }
 
 .fixed-bar {
@@ -91,17 +107,35 @@ body {
 	vertical-align: middle;
 }
 
-.hidden {
-	display: hidden;
+.nav-container {
+	height: 60px;
 }
-.block {
-	display: block;
+.nav-container {
+	text-align: center;
+	margin: 0;
 }
-.inline-block {
-	display: inline-block;
+
+.nav-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.inline {
-	display: inline;
+.main-nav {
+	display: flex;
+	height: 100%;
+}
+.center-nav {
+	margin: auto;
+}
+
+.nav-container li {
+  display: inline-block;
+}
+
+.nav-container a {
+  font-weight: 800;
+  padding: 15px 10px;
+  color: black;
 }
 
 .main-content {
@@ -172,11 +206,19 @@ body {
 }
 .blog-articles-title {
 	text-decoration: underline;
+	color: #000;
 }
 .articles-container {
-	margin: 20px 20px 5px 20px;
 	padding: 5px 20px 5px 20px;
 	max-width: 800px;
 	background-color: #FFF;
 	border-radius: 16px;
+}
+.article-title {
+	margin-bottom: 0;
+}
+.article-date {
+	display: inline-block;
+	margin-bottom: 11px;
+	color: #999;
 }

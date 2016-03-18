@@ -2,6 +2,7 @@
 	to build...
 	sass --watch main.scss:main.css
 */
+/*#F3F3F3;*/
 body {
   margin: 0;
   font-family: ProximaNovaA-Bold;
@@ -39,6 +40,18 @@ body {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%); }
+
+.hidden {
+  display: none; }
+
+.block {
+  display: block; }
+
+.inline-block {
+  display: inline-block; }
+
+.inline {
+  display: inline; }
 
 .fixed-bar {
   height: 60px;
@@ -80,20 +93,35 @@ body {
   text-align: center;
   vertical-align: middle; }
 
-.hidden {
-  display: hidden; }
+.nav-container {
+  height: 60px; }
 
-.block {
-  display: block; }
+.nav-container {
+  text-align: center;
+  margin: 0; }
 
-.inline-block {
+.nav-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.main-nav {
+  display: flex;
+  height: 100%; }
+
+.center-nav {
+  margin: auto; }
+
+.nav-container li {
   display: inline-block; }
 
-.inline {
-  display: inline; }
+.nav-container a {
+  font-weight: 800;
+  padding: 15px 10px;
+  color: black; }
 
 .main-content {
-  background-color: #F3F3F3; }
+  background-color: #DDDEDE; }
 
 .i-write-code-section {
   height: 110px;
@@ -149,13 +177,21 @@ body {
   padding: 20px 20px 5px 20px; }
 
 .blog-articles-title {
-  text-decoration: underline; }
+  text-decoration: underline;
+  color: #000; }
 
 .articles-container {
-  margin: 20px 20px 5px 20px;
   padding: 5px 20px 5px 20px;
   max-width: 800px;
   background-color: #FFF;
   border-radius: 16px; }
+
+.article-title {
+  margin-bottom: 0; }
+
+.article-date {
+  display: inline-block;
+  margin-bottom: 11px;
+  color: #999; }
 
 /*# sourceMappingURL=main.css.map */
