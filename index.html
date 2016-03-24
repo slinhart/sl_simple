@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="fonts/MyFontsWebfontsKit.css">
 </head>
 <body>
-	<header>
+	<header class="header">
 		<div class="fixed-bar">
 			<div class="hamburger-wrapper">
 				<button class="btn hamburger-nav-btn"><i class="fa fa-bars"></i></button>
@@ -23,10 +23,10 @@
 				<ul>
 					<li><a>Blog</a></li>
 					<li><a>About</a></li>
-					<li><a></a></li>
-					<li><a></a></li>
-					<li><a></a></li>
-					<li><a>Hit me up</a></li>
+					<li><a class="nav-logo-link"><img class="nav-logo" src="img/logo/github.png" /></a></li>
+					<li><a class="nav-logo-link"><img class="nav-logo" src="img/logo/linkedin.png" /></a></li>
+					<li><a class="nav-logo-link"><img class="nav-logo" src="img/logo/stackoverflow.png" /></a></li>
+					<li><a>Contact</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -43,29 +43,20 @@
 			</section>
 		</div>
 		<section class="blog-articles-section">
-			<h2 class="blog-articles-title">Blog Articles</h2>
+			<div class="row">
+				<div class="col-xs-8">
+					<h2 class="blog-articles-title">Blog Articles</h2>
+				</div>
+				<div class="col-xs-4">
+					<i class="fa fa-book blog-icon"></i>
+				</div>
+			</div>
 			<div class="articles-container">
 				<h3 class="article-title">Memory Management</h3>
 				<time class="article-date">March 17, 2016</time>
 				<p class="preview-blog-text">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rhoncus consequat erat, at cursus ex tempus nec. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque vitae neque eu magna posuere suscipit. Curabitur quam nulla, imperdiet ac tellus nec, molestie maximus magna. Ut malesuada porttitor augue. Fusce sed neque magna. In quis eros eget nulla fermentum venenatis. Ut vel vehi!
 				</p>
-			</div>
-		</section>
-		<section class="i-write-code-section center-helper">
-			<div class="i-write-code vertical-center">
-				<div class="center-helper">
-					<span class="large-text i-write-code-text" style="margin-right:8px">I write</span>
-					<div class="dummy-vertical-slider"></div>
-					<div class="vertical-slider-container">
-						<div class="vertical-slider">
-							<div class="code-quality" style="color:#e15258">
-								awesome
-							</div>
-						</div>
-					</div>
-					<span class="large-text i-write-code-text" style="margin-left:8px">code</span>
-				</div>
 			</div>
 		</section>
 	</div>
