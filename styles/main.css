@@ -94,8 +94,23 @@ body {
   left: 0; }
 
 .header-spacer {
-  display: block;
-  height: 120px; }
+  height: 60px; }
+
+.role-title {
+  margin: 0;
+  font-size: 18px;
+  color: #DDDEDE;
+  line-height: 60px; }
+
+.role-title-container {
+  padding: 0 6% 8px;
+  height: 60px;
+  text-align: center;
+  /*margin-bottom: 5px;*/ }
+
+.role-title-underline {
+  height: 100%;
+  border-bottom: 1px solid rgba(221, 222, 222, 0.5); }
 
 .primary-header {
   display: inline;
@@ -170,7 +185,7 @@ a.nav-logo-link {
 /* About me Section */
 .about-me-section-container {
   background-color: white;
-  padding: 20px 20px 5px 20px; }
+  padding: 0 20px 5px 20px; }
 
 .about-me-section {
   font-size: 16px; }

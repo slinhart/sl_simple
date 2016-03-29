@@ -6,6 +6,7 @@ $text-color: #576366;
 $header-height: 60px;
 $font-family: ProximaNovaA-Bold;
 $light-gray: #DDDEDE;
+$soft-gray: rgba(221,222,222,0.5);
 $green :#5FCF80;
 $light-green: #B8F5D2;
 $dark-green: #3ac162;
@@ -108,8 +109,23 @@ body {
 	left: 0;
 }
 .header-spacer {
-	display: block;
-	height: 120px;
+	height: 60px;
+}
+.role-title {
+	margin: 0;
+	font-size: 18px;
+	color: $light-gray;
+	line-height: 60px;
+}
+.role-title-container {
+	padding: 0 6% 8px;
+	height: 60px;
+	text-align: center;
+	/*margin-bottom: 5px;*/
+}
+.role-title-underline {
+	height: 100%;
+	border-bottom: 1px solid $soft-gray;
 }
 
 .primary-header {
@@ -192,7 +208,7 @@ a.nav-logo-link {
 /* About me Section */
 .about-me-section-container {
 	background-color: white;
-	padding: 20px 20px 5px 20px;
+	padding: 0 20px 5px 20px;
 }
 .about-me-section {
 	font-size: 16px;
