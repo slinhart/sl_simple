@@ -101,7 +101,7 @@ body {
 
 .header {
 	background-color: $green;
-	z-index: 2;
+	z-index: 100;
 	color: #FFF;
 	width: 100%;
 	position: absolute;
@@ -148,9 +148,9 @@ body {
 	text-align: center;
 	margin: 0;
 	background-color: $light-gray;
-	z-index: -1;
-	-webkit-transition: transform 1s cubic-bezier(.68,.5,.38,.68);
-	transition: transform 1s cubic-bezier(.68,.5,.38,.68);
+	z-index: 50;
+	-webkit-transition: transform 1s cubic-bezier(.53,.09,.54,1.12);
+	transition: transform 1s cubic-bezier(.53,.09,.54,1.12);
 }
 .nav-container.slide-down {
 	-webkit-transform: translate3d(0,100%,0);
