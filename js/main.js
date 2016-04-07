@@ -14,9 +14,9 @@ $(function() {
 	$(document).scroll(function () {
     var y = $(this).scrollTop();
     if (screen.height + y === $(this).height()) {
-        $('.scroll-top-btn').fadeIn(900);
+        $('.scroll-top-btn-container').fadeIn(900);
     } else {
-        $('.scroll-top-btn').fadeOut(600);
+        $('.scroll-top-btn-container').fadeOut(600);
     }
 	});
 
