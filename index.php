@@ -1,39 +1,9 @@
 <html>
-<?php include('partials/head.php'); ?>
+<head>
+	<?php include('partials/head.php'); ?>
+</head>
 <body>
-	<header class="header">
-		<div class="fixed-bar">
-			<div class="hamburger-wrapper">
-				<button class="btn hamburger-nav-btn"><i class="fa fa-bars"></i></button>
-			</div>
-			<div class="inline-block full-width h1-padding">
-				<h1 class="primary-header">Shayne Linhart</h1>
-			</div>
-		</div>
-	</header>
-	<div class="nav-container">
-		<nav class="main-nav">
-			<div class="center-nav">
-				<ul>
-					<li><a>Blog</a></li>
-					<li><a>About</a></li>
-					<li><a class="nav-logo-link">
-						<img class="nav-logo" src="img/logo/github.png" />
-					</a></li>
-					<li><a class="nav-logo-link">
-						<img class="nav-logo" src="img/logo/linkedin.png" />
-					</a></li>
-					<li><a class="nav-logo-link">
-						<img class="nav-logo" src="img/logo/stackoverflow.png" />
-					</a></li>
-					<li><a href="/contact.php">
-						Contact
-					</a></li>
-				</ul>
-			</div>
-		</nav>
-	</div>
-	<div class="header-spacer"></div>
+	<?php include('partials/header.php'); ?>
 	<div class="role-title-container">
 		<div class="role-title-underline">
 		<h2 class="role-title">Software Developer</h2>
@@ -74,8 +44,6 @@
 		<a class="btn scroll-top-btn"><span><i class="fa fa-angle-up"></i></span></a>
 	</div>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
-	<script src="js/main.js"></script>
+	<?php include('partials/primary_scripts.php'); ?>
 </body>
 </html>

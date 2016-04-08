@@ -1,6 +1,6 @@
 /*
 	to build...
-	sass --watch main.scss:main.css
+	sass --watch main.scss:main.css contact.scss:contact.css
 */
 body {
   margin: 0;
