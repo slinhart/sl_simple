@@ -1,3 +1,2 @@
-/styles/.sass-cache/
-/styles/.sass-cache/*
-**/*.css
+*.css
+*.scssc
