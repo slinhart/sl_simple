@@ -1,4 +1,20 @@
+@import "variables";
+
 /* Send Message Section */
 .send-message-title {
 	margin: 0;
+	text-align: center;
+	color: $green;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.message-form-container {
+	margin: 0 10%;
+	max-width: 600px;
+}
+.message-form {
+	label {
+		color: $gray;
+		font-size: 16px;
+	}
 }

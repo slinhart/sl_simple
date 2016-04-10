@@ -2,16 +2,7 @@
 	to build...
 	sass --watch main.scss:main.css contact.scss:contact.css
 */
-$text-color: #576366;
-$header-height: 60px;
-$font-family: ProximaNovaA-Bold;
-$light-gray: #DDDEDE;
-$soft-gray: rgba(221,222,222,0.5);
-$green :#5FCF80;
-$light-green: #B8F5D2;
-$dark-green: #3ac162;
-$light-blue: #C1E0F5;
-$blue: #42B4D6;
+@import "variables";
 body {
 	margin: 0;
 	font-family: $font-family;
@@ -19,6 +10,35 @@ body {
 	min-width: 320px;
 	position: relative;
 }
+a {
+	&:focus,
+	&:hover,
+	&:active {
+		text-decoration: none;
+	}
+}
+
+.btn-primary {
+	/* override bootstrap primary button color */
+	background-color: $green;
+	border-color: $green;
+
+	&:focus,
+	&:hover,
+	&:active
+	&:active:hover {
+		background-color: $green !important;
+		border-color: $green !important;
+		outline: none;
+	}
+}
+.form-control {
+	&:focus {
+		border-color: $green;
+	}
+}
+
+
 .full-width {
 	width: 100%;
 }
@@ -104,11 +124,6 @@ body {
 	width: 100%;
 	height: 100%;
 	padding-top: 15px;
-	&:focus,
-	&:hover,
-	&:active {
-		text-decoration: none;
-	}
 }
 
 .header {
@@ -254,7 +269,7 @@ a.nav-logo-link {
 .article-date {
 	display: inline-block;
 	margin-bottom: 11px;
-	color: #999;
+	color: $gray;
 }
 
 .scroll-top-btn-container {
