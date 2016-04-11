@@ -29,6 +29,14 @@
 			</div>
 		</form>
 	</div>
+	<div class="contact-info-container">
+		<h2 class="contact-info-title">Contact Info</h2>
+		<ul>
+			<li>shayne.linhart (gmail)</li>
+			<li><a href="https://www.linkedin.com/in/shaynelinhart" target="_new">linkedin.com/in/shaynelinhart</a></li>
+			<li><a href="https://github.com/slinhart" target="_new">github.com/slinhart</a></li>
+		</ul>
+	</div>
 	<?php include('../partials/primary_scripts.php'); ?>
 </body>
 </html>

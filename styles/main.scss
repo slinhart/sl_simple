@@ -17,6 +17,9 @@ a {
 		text-decoration: none;
 	}
 }
+textarea {
+	resize: vertical;
+}
 
 .btn-primary {
 	/* override bootstrap primary button color */

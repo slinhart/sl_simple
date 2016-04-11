@@ -8,7 +8,8 @@
 	margin-top: 25px;
 	margin-bottom: 20px;
 }
-.message-form-container {
+.message-form-container,
+.contact-info-container {
 	margin: 0 10%;
 	max-width: 600px;
 }
@@ -16,5 +17,23 @@
 	label {
 		color: $gray;
 		font-size: 16px;
+	}
+}
+
+.contact-info-title {
+	margin-top: 40px;
+	color: $dark-gray;
+}
+.contact-info-container {
+	ul {
+		list-style-type: circle;
+	}
+	li {
+		margin: 8px 0;
+		font-size: 16px;
+		a {
+			color: #000;
+			text-decoration: underline;
+		}
 	}
 }

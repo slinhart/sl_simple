@@ -16,13 +16,13 @@
 			<ul>
 				<li><a>Blog</a></li>
 				<li><a>About</a></li>
-				<li><a class="nav-logo-link">
+				<li><a class="nav-logo-link" href="https://github.com/slinhart" target="_new">
 					<img class="nav-logo" src="/img/logo/github.png" />
 				</a></li>
-				<li><a class="nav-logo-link">
+				<li><a class="nav-logo-link" href="https://www.linkedin.com/in/shaynelinhart" target="_new">
 					<img class="nav-logo" src="/img/logo/linkedin.png" />
 				</a></li>
-				<li><a class="nav-logo-link">
+				<li><a class="nav-logo-link" href="http://stackoverflow.com/users/2771143/slinhart" target="_new">
 					<img class="nav-logo" src="/img/logo/stackoverflow.png" />
 				</a></li>
 				<li><a href="/contact">
