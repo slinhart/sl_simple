@@ -15,7 +15,7 @@
 		<div class="center-nav">
 			<ul>
 				<li><a>Blog</a></li>
-				<li><a>About</a></li>
+				<li><a href="/about">About</a></li>
 				<li><a class="nav-logo-link" href="https://github.com/slinhart" target="_new">
 					<img class="nav-logo" src="/img/logo/github.png" />
 				</a></li>
