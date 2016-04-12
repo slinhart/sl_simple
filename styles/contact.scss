@@ -3,7 +3,6 @@
 /* Send Message Section */
 .send-message-title {
 	margin: 0;
-	text-align: center;
 	color: $green;
 	margin-top: 25px;
 	margin-bottom: 20px;
@@ -22,7 +21,7 @@
 
 .contact-info-title {
 	margin-top: 40px;
-	color: $dark-gray;
+	color: $green;
 }
 .contact-info-container {
 	ul {
@@ -30,10 +29,15 @@
 	}
 	li {
 		margin: 8px 0;
+	}
+	.contact-item {
 		font-size: 16px;
-		a {
-			color: #000;
-			text-decoration: underline;
+		color: $dark-gray;
+	}
+	a.contact-item {
+		text-decoration: underline;
+		&:hover {
+			color: $green;
 		}
 	}
 }

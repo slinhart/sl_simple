@@ -5,8 +5,8 @@
 </head>
 <body>
 	<?php include('../partials/header.php'); ?>
-	<h1 class="send-message-title">Send Message</h1>
 	<div class="message-form-container">
+		<h1 class="send-message-title">Send Message</h1>
 		<form action="message.php" method="post" class="form-horizontal message-form">
 			<div class="form-group">
 				<label class="col-xs-3 control-label">Email</label>
@@ -32,9 +32,9 @@
 	<div class="contact-info-container">
 		<h2 class="contact-info-title">Contact Info</h2>
 		<ul>
-			<li>shayne.linhart (gmail)</li>
-			<li><a href="https://www.linkedin.com/in/shaynelinhart" target="_new">linkedin.com/in/shaynelinhart</a></li>
-			<li><a href="https://github.com/slinhart" target="_new">github.com/slinhart</a></li>
+			<li><span class="contact-item">shayne.linhart (gmail)</span></li>
+			<li><a class="contact-item" href="https://www.linkedin.com/in/shaynelinhart" target="_new">linkedin.com/in/shaynelinhart</a></li>
+			<li><a class="contact-item" href="https://github.com/slinhart" target="_new">github.com/slinhart</a></li>
 		</ul>
 	</div>
 	<?php include('../partials/primary_scripts.php'); ?>

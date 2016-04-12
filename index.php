@@ -15,20 +15,14 @@
 			<section class="about-me-section">
 				<p class="about-me">
 					I spend a lot of time working with javascript and other web technologies.
-					2016 is the year I want to start sharing my ideas on the platform I use nearly
-					every day.
+					This site is an outlet for me to share my ideas, as well as a bridge to connect
+					with other developers and the open source community.
 				</p>
 			</section>
 		</div>
 		<section class="blog-articles-section">
-			<div class="row">
-				<div class="col-xs-8">
-					<h2 class="blog-articles-title">Blog Articles</h2>
-				</div>
-				<div class="col-xs-4">
-					<i class="fa fa-feed blog-icon"></i>
-				</div>
-			</div>
+			<h2 class="blog-articles-title">Blog Articles</h2>
+			<i class="fa fa-feed blog-icon"></i>
 			<div class="articles-container">
 				<h3 class="article-title">Memory Management</h3>
 				<time class="article-date">March 17, 2016</time>
