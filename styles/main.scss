@@ -20,6 +20,13 @@ a {
 textarea {
 	resize: vertical;
 }
+.content-container {
+	padding: 0 20px;
+}
+.centered-content {
+	margin: 0 auto;
+	max-width: 600px;
+}
 
 .btn-primary {
 	/* override bootstrap primary button color */
@@ -247,7 +254,7 @@ a.nav-logo-link {
 
 /* Blog Articles Section */
 .blog-articles-section {
-	padding: 15px 20px 5px 20px;
+	padding: 15px 0 5px 0;
 	background-color: $green;
 	padding-bottom: 18px;
 }
