@@ -1,0 +1,13 @@
+@import "variables";
+
+h1,h2,h3 {
+	color: $green;
+}
+
+.skills-section {
+	padding: 32px 0;
+	background-color: $soft-gray;
+}
+.skills-title {
+	margin: 0 0 8px 0;
+}

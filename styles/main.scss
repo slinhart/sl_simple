@@ -32,6 +32,9 @@ h2 {
 h3 {
 	font-size: 34px;
 }
+hr {
+	margin: 10px 6%;
+}
 .content-container {
 	padding: 0 20px;
 }
@@ -261,9 +264,13 @@ a.nav-logo-link {
 
 /* Blog Articles Section */
 .blog-articles-section {
+	margin: 10px 0;
 	padding: 15px 0 5px 0;
-	background-color: $green;
+	background-color: $alpha-green;
 	padding-bottom: 18px;
+}
+.blog-articles-title-container {
+	margin: 11px 0;
 }
 .blog-articles-title {
 	font-size: 40px;
@@ -300,7 +307,7 @@ a.nav-logo-link {
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
-	background-color: rgba(58, 193, 98, 0.6);
+	background-color: $alpha-green;
 	cursor: pointer;
 }
 .scroll-top-btn {

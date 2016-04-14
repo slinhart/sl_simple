@@ -21,8 +21,10 @@
 	<section class="blog-articles-section">
 		<div class="content-container">
 			<div class="centered-content">
-				<h2 class="blog-articles-title">Blog Articles</h2>
-				<i class="fa fa-feed blog-icon"></i>
+				<div class="blog-articles-title-container">
+					<h2 class="blog-articles-title">Blog Articles</h2>
+					<i class="fa fa-feed blog-icon"></i>
+				</div>
 				<div class="articles-container">
 					<h3 class="article-title">Memory Management</h3>
 					<time class="article-date">March 17, 2016</time>

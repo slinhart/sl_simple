@@ -31,6 +31,7 @@
 			</form>
 		</div>
 	</div>
+	<hr />
 	<div class="content-container">
 		<div class="centered-content contact-info-container">
 			<h2 class="contact-info-title">Contact Info</h2>
