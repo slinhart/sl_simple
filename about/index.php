@@ -36,6 +36,7 @@
 					<li><a href="https://addyosmani.com/blog/"><span>Addy Osmani</span></a></li>
 					<li><a href="http://ejohn.org/category/blog/"><span>John Resig</span></a></li>
 					<li><a href="https://twitter.com/floydophone?lang=en"><span>Pete Hunt</span></a></li>
+					<li><a href="http://benhowdle.im/blog/"><span>Ben Howdle</span></a></li>
 				</ul>
 			</section>
 	</div>

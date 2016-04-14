@@ -1,6 +1,8 @@
 /*
 	to build...
 	sass --watch main.scss:main.css contact.scss:contact.css about.scss:about.css
+
+	TODO: remove unused font files before deploying site
 */
 @import "variables";
 body {
@@ -9,6 +11,10 @@ body {
 	font-weight: 800;
 	min-width: 320px;
 	position: relative;
+}
+p {
+	color: $text-color;
+	font-size: 16px;
 }
 a {
 	&:focus,
@@ -19,6 +25,12 @@ a {
 }
 textarea {
 	resize: vertical;
+}
+h2 {
+	font-size: 40px;
+}
+h3 {
+	font-size: 34px;
 }
 .content-container {
 	padding: 0 20px;
@@ -150,7 +162,7 @@ textarea {
 }
 .role-title {
 	margin: 0;
-	font-size: 18px;
+	font-size: 21px;
 	color: $light-gray;
 	line-height: 60px;
 }
@@ -238,18 +250,13 @@ a.nav-logo-link {
 	height: 25px;
 }
 
-.main-content {
-	background-color: $light-gray;
-}
-
-
 /* About me Section */
 .about-me-section-container {
 	background-color: white;
 	padding: 0 20px 5px 20px;
 }
 .about-me-section {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 /* Blog Articles Section */
@@ -259,13 +266,14 @@ a.nav-logo-link {
 	padding-bottom: 18px;
 }
 .blog-articles-title {
+	font-size: 40px;
 	color: #FFF;
 	margin-top: 0;
 	display: inline-block;
 	margin-right: 10px;
 }
 .blog-icon {
-	font-size: 30px;
+	font-size: 40px;
 	color: #FFF;
 }
 .articles-container {
