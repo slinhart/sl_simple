@@ -5,13 +5,14 @@
 <body>
 	<?php include('partials/header.php'); ?>
 	<div class="role-title-container">
-		<div class="role-title-underline">
 		<h2 class="role-title">Software Developer</h2>
-		</div>
 	</div>
-	<div class="about-me-section-container centered-content">
-		<section class="about-me-section">
-			<p class="about-me">
+	<div class="hr-container">
+			<hr class="marginless-hr" />
+		</div>
+	<div class="about-me-section-intro-container centered-content">
+		<section class="about-me-intro-section">
+			<p class="about-me-intro">
 				I spend a lot of time working with javascript and other web technologies.
 				This site is an outlet for me to share my ideas, as well as a bridge to connect
 				with other developers and the open source community.
@@ -26,7 +27,7 @@
 					<i class="fa fa-feed blog-icon"></i>
 				</div>
 				<div class="articles-container">
-					<h3 class="article-title">Memory Management</h3>
+					<h3 class="article-title">Fix JavaScript bugs faster with DevTools</h3>
 					<time class="article-date">March 17, 2016</time>
 					<p class="preview-blog-text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rhoncus consequat erat, at cursus ex tempus nec. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.

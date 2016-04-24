@@ -4,10 +4,15 @@ h1,h2,h3 {
 	color: $green;
 }
 
-.skills-section {
-	padding: 32px 0;
-	background-color: $soft-gray;
+.section {
+	padding: 16px 0;
 }
+
+.about-me-section {
+	padding-top: 8px;
+}
+
 .skills-title {
 	margin: 0 0 8px 0;
+	color: $green;
 }

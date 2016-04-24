@@ -5,15 +5,20 @@
 </head>
 <body>
 	<?php include('../partials/header.php'); ?>
-	<div class="content-container">
-		<div class="centered-content">
-			<h1 class="about-me-title">About Me</h1>
-			<p class="about-me-text">
-				Morbi porttitor nunc in lacinia rhoncus. Aliquam quis est ligula. Duis quis mi posuere, consectetur neque luctus, ullamcorper turpis. Vivamus suscipit sodales volutpat. Curabitur quis massa mauris. Sed eu volutpat orci, ac accumsan turpis. Suspendisse sed consectetur dolor. Aliquam a augue ac mauris posuere pharetra. Aliquam erat volutpat. Etiam luctus accumsan nibh eu porta. Nam porttitor enim vitae felis finibus, vel euismod turpis elementum. Phasellus nunc turpis, malesuada eu libero pellentesque, malesuada scelerisque risus. Suspendisse scelerisque nisi luctus, vulputate mi at, molestie eros.
-			</p>
+	<section class="about-me-section section">
+		<div class="content-container">
+			<div class="centered-content">
+				<h1 class="about-me-title">About Me</h1>
+				<p class="about-me-text">
+					Morbi porttitor nunc in lacinia rhoncus. Aliquam quis est ligula. Duis quis mi posuere, consectetur neque luctus, ullamcorper turpis. Vivamus suscipit sodales volutpat. Curabitur quis massa mauris. Sed eu volutpat orci, ac accumsan turpis. Suspendisse sed consectetur dolor. Aliquam a augue ac mauris posuere pharetra. Aliquam erat volutpat. Etiam luctus accumsan nibh eu porta. Nam porttitor enim vitae felis finibus, vel euismod turpis elementum. Phasellus nunc turpis, malesuada eu libero pellentesque, malesuada scelerisque risus. Suspendisse scelerisque nisi luctus, vulputate mi at, molestie eros.
+				</p>
+			</div>
 		</div>
+	</section>
+	<div class="hr-container">
+		<hr />
 	</div>
-	<section class="skills-section">
+	<section class="skills-section section">
 		<div class="content-container">
 			<div class="centered-content">
 				<h2 class="skills-title">Skills</h2>
@@ -34,7 +39,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="who-im-reading-section">
+	<section class="who-im-reading-section section">
 		<div class="content-container">
 			<div class="centered-content">
 				<h3>Who I'm Reading</h3>

@@ -32,15 +32,26 @@ h2 {
 h3 {
 	font-size: 34px;
 }
-hr {
-	margin: 10px 6%;
-}
+
 .content-container {
 	padding: 0 20px;
 }
 .centered-content {
 	margin: 0 auto;
-	max-width: 600px;
+	max-width: 720px;
+}
+
+hr {
+	max-width: 900px;
+	margin: 10px 6%;
+}
+.hr-container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+.marginless-hr {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .btn-primary {
@@ -175,10 +186,10 @@ hr {
 	text-align: center;
 	/*margin-bottom: 5px;*/
 }
-.role-title-underline {
+/*.role-title-underline {
 	height: 100%;
 	border-bottom: 1px solid $soft-gray;
-}
+}*/
 
 .primary-header {
 	display: inline;
@@ -254,11 +265,12 @@ a.nav-logo-link {
 }
 
 /* About me Section */
-.about-me-section-container {
+.about-me-section-intro-container {
 	background-color: white;
 	padding: 0 20px 5px 20px;
 }
-.about-me-section {
+.about-me-intro-section {
+	margin-top: 25px;
 	font-size: 20px;
 }
 
@@ -266,7 +278,7 @@ a.nav-logo-link {
 .blog-articles-section {
 	margin: 10px 0;
 	padding: 15px 0 5px 0;
-	background-color: $alpha-green;
+	background-color: $soft-gray;
 	padding-bottom: 18px;
 }
 .blog-articles-title-container {
@@ -274,14 +286,14 @@ a.nav-logo-link {
 }
 .blog-articles-title {
 	font-size: 40px;
-	color: #FFF;
+	color: $dark-gray;
 	margin-top: 0;
 	display: inline-block;
 	margin-right: 10px;
 }
 .blog-icon {
 	font-size: 40px;
-	color: #FFF;
+	color: $dark-gray;
 }
 .articles-container {
 	padding: 5px 20px 5px 20px;
@@ -289,9 +301,12 @@ a.nav-logo-link {
 	background-color: #FFF;
 	border-radius: 16px;
 	padding-bottom: 33px;
+	/*box-shadow: 1px 1px 1px $alpha-green,
+		-1px -1px 1px $alpha-green;*/
 }
 .article-title {
 	margin-bottom: 0;
+	color: $green;
 }
 .article-date {
 	display: inline-block;
