@@ -12,7 +12,62 @@ h1,h2,h3 {
 	padding-top: 8px;
 }
 
+.skills-header-wrapper {
+	position: relative;
+	margin-bottom: 10px;
+	height: 40px;
+}
+
 .skills-title {
-	margin: 0 0 8px 0;
+	font-size: 40;
+	margin: 0;
 	color: $green;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.resume-download-link {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: $dark-blue;
+	transition: background-color 0.3s;
+	&:hover {
+		color: $orange;
+	}
+}
+
+.skill-tag {
+	letter-spacing: 1.3px;
+	line-height: 40px;
+	padding: 5px 8px;
+	margin: 0 4px;
+	font-size: 16px;
+	background-color: $light-blue;
+	color: #FFF;
+	border-radius: 4px;
+	transition: background-color 0.3s;
+	&:hover {
+		background-color: $orange;
+	}
+}
+
+.who-im-reading-title {
+	margin-top: 0;
+}
+
+.who-im-reading-list {
+	padding-left: 20px;
+	list-style-type: none;
+	li {
+		padding: 4px;
+		font-size: 16px;
+		a {
+			color: $dark-gray;
+			&:hover {
+				color: $light-blue;
+			}
+		}
+	}
 }

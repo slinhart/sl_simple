@@ -21,16 +21,19 @@
 	<section class="skills-section section">
 		<div class="content-container">
 			<div class="centered-content">
-				<h2 class="skills-title">Skills</h2>
-				<a href="resume-download-link">Download Resume</a>
+				<div class="skills-header-wrapper">
+					<h2 class="skills-title">Skills</h2>
+					<a class="resume-download-link pull-right" href="">Download Resume</a>
+				</div>
 				<div>
 					<span class="skill-tag">JavaScript</span>
 					<span class="skill-tag">HTML</span>
 					<span class="skill-tag">CSS</span>
-					<span class="skill-tag">Php</span>
+					<span class="skill-tag">PHP</span>
 					<span class="skill-tag">Backbone</span>
 					<span class="skill-tag">jQuery</span>
 					<span class="skill-tag">Sass</span>
+					<span class="skill-tag">Symfony</span>
 					<span class="skill-tag">Webpack</span>
 					<span class="skill-tag">Marionette</span>
 					<span class="skill-tag">AngularJS</span>
@@ -42,14 +45,15 @@
 	<section class="who-im-reading-section section">
 		<div class="content-container">
 			<div class="centered-content">
-				<h3>Who I'm Reading</h3>
-				<ul>
+				<h2 class="who-im-reading-title">Who I'm Reading</h2>
+				<ul class="who-im-reading-list">
 					<li><a href="http://philipwalton.com/"><span>Philip Walton</span></a></li>
 					<li><a href="http://braddunbar.net/"><span>Brad Dunbar</span></a></li>
 					<li><a href="https://addyosmani.com/blog/"><span>Addy Osmani</span></a></li>
 					<li><a href="http://ejohn.org/category/blog/"><span>John Resig</span></a></li>
 					<li><a href="https://twitter.com/floydophone?lang=en"><span>Pete Hunt</span></a></li>
 					<li><a href="http://benhowdle.im/blog/"><span>Ben Howdle</span></a></li>
+					<li><a href="http://derickbailey.com/"><span>Derick Bailey</span></a></li>
 				</ul>
 			</div>
 		</div>

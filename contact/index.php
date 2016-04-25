@@ -37,7 +37,7 @@
 	<div class="content-container">
 		<div class="centered-content contact-info-container">
 			<h2 class="contact-info-title">Contact Info</h2>
-			<ul>
+			<ul class="contact-info-list">
 				<li><span class="contact-item">shayne.linhart (gmail)</span></li>
 				<li><a class="contact-item" href="https://www.linkedin.com/in/shaynelinhart" target="_new">linkedin.com/in/shaynelinhart</a></li>
 				<li><a class="contact-item" href="https://github.com/slinhart" target="_new">github.com/slinhart</a></li>
