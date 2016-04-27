@@ -1,4 +1,10 @@
 $(function() {
+
+	// Start WebReader
+	// var webReader = new WebReader();
+	var webReader = new WebReader.default(); // for debug mode
+	webReader.enableShortcuts();
+
 	// Listen for hamburger click
 	$('.hamburger-wrapper').on('click', function(e) {
 		var $navContainer = $('.nav-container');
@@ -12,12 +18,12 @@ $(function() {
 
 	// Watch for scroll to bottom of page
 	$(document).scroll(function () {
-    var y = $(this).scrollTop();
-    if (screen.height + y === $(this).height()) {
-        $('.scroll-top-btn-container').fadeIn(900);
-    } else {
-        $('.scroll-top-btn-container').fadeOut(600);
-    }
+		var y = $(this).scrollTop();
+		if (screen.height + y === $(this).height()) {
+				$('.scroll-top-btn-container').fadeIn(900);
+		} else {
+				$('.scroll-top-btn-container').fadeOut(600);
+		}
 	});
 
 	$('.scroll-top-btn-container').click(function() {
