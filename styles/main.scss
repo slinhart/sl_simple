@@ -126,19 +126,19 @@ hr {
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
- 	-o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 .vertical-center {
 	position: absolute;
 	top: 50%;
 	-webkit-transform: translateY(50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
- 	-o-transform: translateY(-50%);
-  transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 
 .hidden {
@@ -227,10 +227,10 @@ hr {
 	color: #FFF;
 }
 
-.nav-container {
+.mobile-nav-container {
 	height: 60px;
 }
-.nav-container {
+.mobile-nav-container {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -244,44 +244,44 @@ hr {
 	-webkit-transition: transform 1s cubic-bezier(.53,.09,.54,1.12);
 	transition: transform 1s cubic-bezier(.53,.09,.54,1.12);
 }
-.nav-container.slide-down {
+.mobile-nav-container.slide-down {
 	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
 }
 
-.nav-container ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.mobile-nav-container ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
-.main-nav {
+.mobile-main-nav {
 	display: flex;
 	height: 100%;
 	-webkit-transition: 1s ease-in-out;
-    -moz-transition: 1s ease-in-out;
-    -o-transition: 1s ease-in-out;
-    transition: 1s ease-in-out;
+		-moz-transition: 1s ease-in-out;
+		-o-transition: 1s ease-in-out;
+		transition: 1s ease-in-out;
 }
 .slide-down {
 	-webkit-transform: translate(0,60px);
-    -moz-transform: translate(0,60px);
-    -o-transform: translate(0,60px);
-    -ms-transform: translate(0,60px);
-    transform: translate(0,60px);
+		-moz-transform: translate(0,60px);
+		-o-transform: translate(0,60px);
+		-ms-transform: translate(0,60px);
+		transform: translate(0,60px);
 }
 .center-nav {
 	margin: auto;
 }
 
-.nav-container li {
-  display: inline-block;
+.mobile-nav-container li {
+	display: inline-block;
 }
 
-.nav-container a {
+.mobile-nav-container a {
 	font-size: 18px;
-  font-weight: 800;
-  padding: 15px 9px;
-  color: $text-color;
+	font-weight: 800;
+	padding: 15px 9px;
+	color: $text-color;
 }
 a.nav-logo-link {
 	padding: 15px 3px;

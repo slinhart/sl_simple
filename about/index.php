@@ -54,6 +54,8 @@
 					<li><a href="https://twitter.com/floydophone?lang=en"><span>Pete Hunt</span></a></li>
 					<li><a href="http://benhowdle.im/blog/"><span>Ben Howdle</span></a></li>
 					<li><a href="http://derickbailey.com/"><span>Derick Bailey</span></a></li>
+					<li><a href="http://chadfowler.com/posts/"><span>Chad Fowler</span></a></li>
+					<li><a href="https://www.audero.it/blog/"><span>Aurelio De Rosa</span></a></li>
 				</ul>
 			</div>
 		</div>

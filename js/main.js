@@ -7,7 +7,7 @@ $(function() {
 
 	// Listen for hamburger click
 	$('.hamburger-wrapper').on('click', function(e) {
-		var $navContainer = $('.nav-container');
+		var $navContainer = $('.mobile-nav-container');
 		if($navContainer.hasClass('slide-down')) {
 			$navContainer.removeClass('slide-down');
 		}

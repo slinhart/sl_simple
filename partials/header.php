@@ -1,6 +1,6 @@
 <header class="header">
 	<div class="fixed-bar">
-		<div class="hamburger-wrapper">
+		<div class="hamburger-wrapper hidden-sm">
 			<button class="btn hamburger-nav-btn"><i class="fa fa-bars"></i></button>
 		</div>
 			<div class="inline-block full-width h1-padding">
@@ -10,8 +10,8 @@
 			</div>
 	</div>
 </header>
-<div class="nav-container">
-	<nav class="main-nav">
+<div class="mobile-nav-container">
+	<nav class="mobile-main-nav">
 		<div class="center-nav">
 			<ul>
 				<li><a>Blog</a></li>
