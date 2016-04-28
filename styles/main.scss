@@ -192,7 +192,6 @@ hr {
 	display: inline-block;
 	width: 100%;
 	height: 100%;
-	padding-top: 15px;
 }
 
 .header {
@@ -218,19 +217,19 @@ hr {
 	height: 59px;
 	text-align: center;
 }
+.primary-title-wrapper {
+	height: 100%;
+	padding-top: 10px;
+}
 
-.primary-header {
+.primary-title {
 	display: inline;
 	font-size: 32px;
-	text-align: center;
-	vertical-align: middle;
 	color: #FFF;
 }
 
 .mobile-nav-container {
 	height: 60px;
-}
-.mobile-nav-container {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -290,6 +289,33 @@ a.nav-logo-link {
 	display: inline-block;
 	width: 25px;
 	height: 25px;
+}
+
+.nav-container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 60px;
+	width: 400px;
+	display: inline-block;
+	text-align: center;
+}
+.main-nav {
+	display: flex;
+	align-items: center;
+	height: 100%;
+
+	ul {
+		margin: 0;
+		padding-left: 0;
+		padding-right: 15px;
+		margin-left: auto;
+	}
+
+	li {
+		padding: 0 8px;
+		display: inline-block;
+	}
 }
 
 /* About me Section */
@@ -368,5 +394,14 @@ a.nav-logo-link {
 		font-weight: 900;
 		font-size: 32px;
 		line-height: 40px
+	}
+}
+
+/***********************************************************
+* Media Queries
+***********************************************************/
+@media (min-width: $sm) {
+	.fixed-bar {
+		text-align: left;
 	}
 }
