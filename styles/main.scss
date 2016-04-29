@@ -308,13 +308,18 @@ a.nav-logo-link {
 	ul {
 		margin: 0;
 		padding-left: 0;
-		padding-right: 15px;
+		padding-right: 25px;
 		margin-left: auto;
 	}
 
 	li {
 		padding: 0 8px;
 		display: inline-block;
+		font-size: 18px;
+		a {
+			color: #FFF;
+			letter-spacing: 0.05em;
+		}
 	}
 }
 

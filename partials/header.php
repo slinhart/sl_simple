@@ -9,7 +9,7 @@
 						<h1 class="primary-title">Shayne Linhart</h1>
 					</div>
 				</a>
-				<div class="nav-container">
+				<div class="nav-container hidden-xs">
 					<nav class="main-nav">
 						<ul>
 							<li><a>Blog</a></li>
