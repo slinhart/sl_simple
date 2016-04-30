@@ -17,6 +17,7 @@
 							<li><a href="/contact">
 								Contact
 							</a></li>
+							<li class="nav-spacer hidden-xs hidden-sm hidden-md"></li>
 							<li><a class="nav-logo-link" href="https://github.com/slinhart" target="_new">
 								<img class="nav-logo" src="/img/logo/github.png" />
 							</a></li>

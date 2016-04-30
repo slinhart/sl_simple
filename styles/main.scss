@@ -323,6 +323,10 @@ a.nav-logo-link {
 	}
 }
 
+.nav-spacer {
+	width: 25px;
+}
+
 /* About me Section */
 .about-me-section-intro-container {
 	background-color: white;
@@ -408,5 +412,17 @@ a.nav-logo-link {
 @media (min-width: $sm) {
 	.fixed-bar {
 		text-align: left;
+	}
+	.header-spacer {
+		margin-bottom: 50px;
+	}
+}
+
+@media (min-width: $lg) {
+	.nav-container {
+		width: 600px;
+	}
+	.main-nav ul {
+		padding-right: 60px;
 	}
 }
