@@ -154,6 +154,10 @@ hr {
 	display: inline;
 }
 
+.section {
+	padding: 16px 0;
+}
+
 .fixed-bar {
 	height: $header-height;
 	position: relative;
@@ -416,6 +420,15 @@ a.nav-logo-link {
 	.header-spacer {
 		margin-bottom: 50px;
 	}
+	.role-title {
+		margin-top: -40px;
+	}
+}
+
+@media (min-width: $md) {
+	.section {
+		padding: 24px 0;
+	}
 }
 
 @media (min-width: $lg) {
@@ -424,5 +437,9 @@ a.nav-logo-link {
 	}
 	.main-nav ul {
 		padding-right: 60px;
+	}
+
+	.section {
+		padding: 32px 0;
 	}
 }
