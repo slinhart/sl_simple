@@ -1,10 +1,5 @@
 $(function() {
 
-	// Start WebReader
-	// var webReader = new WebReader();
-	var webReader = new WebReader.default(); // for debug mode
-	webReader.enableShortcuts();
-
 	// Listen for hamburger click
 	$('.hamburger-wrapper').on('click', function(e) {
 		var $navContainer = $('.mobile-nav-container');
