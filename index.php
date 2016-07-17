@@ -38,9 +38,9 @@
 		</div>
 	</section>
 
-	<div class="scroll-top-btn-container">
+	<!-- <div class="scroll-top-btn-container">
 		<a class="btn scroll-top-btn"><span><i class="fa fa-angle-up"></i></span></a>
-	</div>
+	</div> -->
 
 	<?php include('partials/primary_scripts.php'); ?>
 </body>

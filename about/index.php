@@ -23,7 +23,7 @@
 			<div class="centered-content">
 				<div class="skills-header-wrapper">
 					<h2 class="skills-title">Skills</h2>
-					<a class="resume-download-link pull-right" href="">Download Resume</a>
+					<a class="resume-download-link pull-right" href="../resume.pdf" download="ShayneLinhart_Resume">Download Resume</a>
 				</div>
 				<div>
 					<span class="skill-tag">JavaScript</span>

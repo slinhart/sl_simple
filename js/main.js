@@ -12,16 +12,16 @@ $(function() {
 	});
 
 	// Watch for scroll to bottom of page
-	$(document).scroll(function () {
-		var y = $(this).scrollTop();
-		if (screen.height + y === $(this).height()) {
-				$('.scroll-top-btn-container').fadeIn(900);
-		} else {
-				$('.scroll-top-btn-container').fadeOut(600);
-		}
-	});
+	// $(document).scroll(function () {
+	// 	var y = $(this).scrollTop();
+	// 	if (screen.height + y === $(this).height()) {
+	// 			$('.scroll-top-btn-container').fadeIn(900);
+	// 	} else {
+	// 			$('.scroll-top-btn-container').fadeOut(600);
+	// 	}
+	// });
 
-	$('.scroll-top-btn-container').click(function() {
-		window.scrollTo(0,0);
-	});
+	// $('.scroll-top-btn-container').click(function() {
+	// 	window.scrollTo(0,0);
+	// });
 });

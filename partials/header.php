@@ -12,7 +12,7 @@
 				<div class="nav-container hidden-xs">
 					<nav class="main-nav">
 						<ul>
-							<li><a>Blog</a></li>
+							<li><a href="/blog">Blog</a></li>
 							<li><a href="/about">About</a></li>
 							<li><a href="/contact">
 								Contact
