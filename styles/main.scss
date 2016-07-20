@@ -271,8 +271,13 @@ hr {
 	transition: transform .45s cubic-bezier(.53,.09,.54,1.12);
 }
 .mobile-nav-container.slide-down {
-	-webkit-transform: translate3d(0,100%,0);
-	transform: translate3d(0,100%,0);
+	-webkit-transform: translate3d(0, 100%,0);
+	transform: translate3d(0, 100%,0);
+}
+.mobile-nav-container.slide-down.transform-fallback {
+	top: 60px;
+	-webkit-transform: none;
+	transform: none;
 }
 
 .mobile-nav-container ul {
