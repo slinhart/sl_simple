@@ -267,8 +267,8 @@ hr {
 	margin: 0;
 	background-color: $light-gray;
 	z-index: 50;
-	-webkit-transition: transform 1s cubic-bezier(.53,.09,.54,1.12);
-	transition: transform 1s cubic-bezier(.53,.09,.54,1.12);
+	-webkit-transition: transform .45s cubic-bezier(.53,.09,.54,1.12);
+	transition: transform .45s cubic-bezier(.53,.09,.54,1.12);
 }
 .mobile-nav-container.slide-down {
 	-webkit-transform: translate3d(0,100%,0);
