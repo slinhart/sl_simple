@@ -6,11 +6,11 @@ $(function() {
 		var prefixes = ['transform', 'WebkitTransform', 'MozTransform', 'OTransform', 'msTransform'];
 		var div = document.createElement('div');
 
-		// for(p in prefixes) {
-		// 	if(div && div.style[prefixes[p]] !== undefined) {
-		// 		return;
-		// 	}
-		// }
+		for(p in prefixes) {
+			if(div && div.style[prefixes[p]] !== undefined) {
+				return;
+			}
+		}
 
 		$('.mobile-nav-container').addClass('transform-fallback');
 	})();
