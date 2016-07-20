@@ -7,7 +7,7 @@
 @import "variables";
 body {
 	margin: 0;
-	font-family: $font-family;
+	font-family: $font-family-bold;
 	font-weight: 800;
 	min-width: 320px;
 	position: relative;
@@ -15,6 +15,7 @@ body {
 p {
 	color: $text-color;
 	font-size: 16px;
+	font-family: $font-family-text;
 }
 a {
 	&:focus,
@@ -34,6 +35,25 @@ h3 {
 	font-size: 34px;
 	line-height: 34px;
 }
+pre {
+	background-color: $soft-gray;
+	border-radius: 3px;
+	overflow: auto;
+	white-space: pre;
+	border: none;
+}
+code {
+	background-color: inherit;
+	display: block;
+	padding: 0;
+	border-radius: 2px;
+}
+
+.home-page {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
 
 .content-container {
 	padding: 0 20px;
@@ -48,6 +68,9 @@ hr {
 	margin: 10px 6%;
 }
 .hr-container {
+	width: 100%;
+}
+.hr-center {
 	max-width: 900px;
 	margin: 0 auto;
 }
@@ -340,13 +363,17 @@ a.nav-logo-link {
 	margin-top: 25px;
 	font-size: 20px;
 }
+.about-me-intro {
+	font-weight: 800;
+}
 
 /* Blog Articles Section */
 .blog-articles-section {
-	margin: 10px 0;
+	margin: 10px 0 0 0;
 	padding: 15px 0 5px 0;
 	background-color: $soft-gray;
 	padding-bottom: 18px;
+	flex: 1;
 }
 .blog-articles-title-container {
 	margin: 11px 0;
@@ -421,7 +448,7 @@ a.nav-logo-link {
 	.header-spacer {
 		margin-bottom: 50px;
 	}
-	.role-title {
+	.role-title-container {
 		margin-top: -40px;
 	}
 }

@@ -8,7 +8,7 @@
 	<div class="content-container">
 		<div class="centered-content">
 			<h1 class="send-message-title">Send Message</h1>
-			<form action="message.php" method="post" class="form-horizontal message-form">
+			<form action="../message.php" method="post" class="form-horizontal message-form">
 				<div class="form-group">
 					<label class="col-xs-3 col-sm-2 col-xs-offset-1 control-label">Email</label>
 					<div class="col-xs-8 col-sm-9">
@@ -31,9 +31,11 @@
 			</form>
 		</div>
 	</div>
-	<div class="hr-container">
-		<hr />
-	</div>
+	<div id="hr-container">
+			<div class="hr-center">
+					<hr class="marginless-hr" />
+			</div>
+		</div>
 	<div class="content-container">
 		<div class="centered-content contact-info-container">
 			<h2 class="contact-info-title">Contact Info</h2>

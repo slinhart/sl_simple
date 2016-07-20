@@ -3,40 +3,43 @@
 	<?php include('partials/head.php'); ?>
 </head>
 <body>
+	<div class="home-page">
 	<?php include('partials/header.php'); ?>
-	<div class="role-title-container">
-		<h2 class="role-title">Software Developer</h2>
-	</div>
-	<div class="hr-container">
-			<hr class="marginless-hr" />
+		<div class="role-title-container">
+			<h2 class="role-title">Software Developer</h2>
 		</div>
-	<div class="about-me-section-intro-container centered-content">
-		<section class="about-me-intro-section">
-			<p class="about-me-intro">
-				I spend a lot of time working with javascript and other web technologies.
-				This site is an outlet for me to share my ideas, as well as a bridge to connect
-				with other developers and the open source community.
-			</p>
-		</section>
-	</div>
-	<section class="blog-articles-section">
-		<div class="content-container">
-			<div class="centered-content">
-				<div class="blog-articles-title-container">
-					<h2 class="blog-articles-title">Blog Articles</h2>
-					<i class="fa fa-feed blog-icon"></i>
-				</div>
-				<div class="articles-container">
-					<h3 class="article-title">Fix JavaScript bugs faster with DevTools</h3>
-					<time class="article-date">March 17, 2016</time>
-					<p class="preview-blog-text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rhoncus consequat erat, at cursus ex tempus nec. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-						Quisque vitae neque eu magna posuere suscipit. Curabitur quam nulla, imperdiet ac tellus nec, molestie maximus magna. Ut malesuada porttitor augue. Fusce sed neque magna. In quis eros eget nulla fermentum venenatis. Ut vel vehi!
-					</p>
-				</div>
+		<div id="hr-container">
+			<div class="hr-center">
+					<hr />
 			</div>
 		</div>
-	</section>
+		<div class="about-me-section-intro-container centered-content">
+			<section class="about-me-intro-section">
+				<p class="about-me-intro">
+					Developing software is my passion and my job. I spend most of my time working with JavaScript and other web technologies. I built this site as an outlet for me to share my ideas, and to connect with other developers and the open source community.
+				</p>
+			</section>
+		</div>
+		<section class="blog-articles-section">
+			<div class="content-container">
+				<div class="centered-content">
+					<div class="blog-articles-title-container">
+						<h2 class="blog-articles-title">Blog Articles</h2>
+						<i class="fa fa-feed blog-icon"></i>
+					</div>
+					<a href="/blog">
+						<div class="articles-container">
+							<h3 class="article-title">Fix JavaScript bugs faster with DevTools</h3>
+							<time class="article-date">July 18, 2016</time>
+							<p class="preview-blog-text">
+								There is already quite a lot of content out there that glosses over the features of the Chrome Devtools, and the official documentation is really great. But in this article I’m going to focus on some specific features that I find particularly helpful, and often underused, when debugging JavaScript problems. If you are a developer who regularly works with JavaScript in the browser, and your go-to strategy for solving bugs is to spread console.logs() throughout your code — this article is for you.
+							</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+	</div>
 
 	<!-- <div class="scroll-top-btn-container">
 		<a class="btn scroll-top-btn"><span><i class="fa fa-angle-up"></i></span></a>

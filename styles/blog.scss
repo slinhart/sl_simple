@@ -23,7 +23,7 @@ p {
 .blog-articles-section {
 
 	h1 {
-		margin-bottom: 30px;
+		margin-bottom: 5px;
 	}
 
 	h2 {
@@ -39,6 +39,10 @@ p {
 		&:hover {
 			color: $dark-green;
 		}
+	}
+
+	.article-date {
+		margin-bottom: 16px;
 	}
 }
 
