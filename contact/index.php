@@ -10,17 +10,17 @@
 	<div class="content-container">
 		<div class="centered-content">
 			<h1 class="send-message-title">Send Message</h1>
-			<form action="../message.php" method="post" class="form-horizontal message-form">
+			<form method="post" class="form-horizontal message-form">
 				<div class="form-group">
 					<label class="col-xs-3 col-sm-2 col-xs-offset-1 control-label">Email</label>
 					<div class="col-xs-8 col-sm-9">
-						<input type="text" name="email" class="form-control" />
+						<input type="text" name="email" class="email-input form-control" />
 					</div>
 				</div>
 				<div class="form-group">
 					<label class="col-xs-3 col-sm-2 col-xs-offset-1 control-label">Message</label>
 					<div class="col-xs-8 col-sm-9">
-						<textarea type="text" name="message" class="form-control" rows="5"></textarea>
+						<textarea type="text" name="message" class="message-input form-control" rows="5"></textarea>
 					</div>
 				</div>
 				<div class="form-group">
@@ -49,5 +49,6 @@
 		</div>
 	</div>
 	<?php include('../partials/primary_scripts.php'); ?>
+	<script src="../js/contact.js"></script>
 </body>
 </html>
