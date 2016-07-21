@@ -2,6 +2,8 @@
 <head>
 	<?php include('../partials/head.php'); ?>
 	<link href="/styles/about.css" rel="stylesheet">
+	<title>About Shayne Linhart</title>
+	<meta name="description" content="Shayne Linhart is a Web Developer in Longmont, Colorado. Experience with JavaScript, BackboneJS, CSS, HTML.">
 </head>
 <body>
 	<?php include('../partials/header.php'); ?>

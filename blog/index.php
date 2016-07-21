@@ -2,6 +2,8 @@
 <head>
 	<?php include('../partials/head.php'); ?>
 	<link href="../styles/blog.css" rel="stylesheet">
+	<title>Shayne Linhart - Fix JavaScript Bugs Faster with DevTools</title>
+	<meta name="description" content="Strategies on how to debug JavaScript code more effectively with Chrome DevTools.">
 </head>
 <body>
 	<?php include('../partials/header.php'); ?>

@@ -1,6 +1,8 @@
 <html>
 <head>
 	<?php include('partials/head.php'); ?>
+	<title>Shayne Linhart's Personal Site</title>
+	<meta name="description" content="Shayne Linhart is a Web Developer in Longmont, Colorado. Contact him with development opportunities.">
 </head>
 <body>
 	<div class="home-page">

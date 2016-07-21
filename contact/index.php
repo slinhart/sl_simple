@@ -2,6 +2,8 @@
 <head>
 	<?php include('../partials/head.php'); ?>
 	<link href="../styles/contact.css" rel="stylesheet">
+	<title>Contact Shayne Linhart</title>
+	<meta name="description" content="Shayne Linhart is a Web Developer in Colorado. Contact him with professional opportunities, or open source propositions.">
 </head>
 <body>
 	<?php include('../partials/header.php'); ?>
