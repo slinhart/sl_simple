@@ -2,6 +2,8 @@
 	$('.message-form').submit(function(e) {
 		e.preventDefault();
 
+		// TODO: Disable button here to avoid double submissions
+
 		var $email = $(this).find('.email-input');
 		var $message = $(this).find('.message-input');
 
@@ -12,7 +14,7 @@
 
 		$.ajax({
 			type: 'POST',
-			url: 'https://6iksav97zk.execute-api.us-west-2.amazonaws.com/initial_api/message',
+			url: 'https://drm5sqqkmj.execute-api.us-west-2.amazonaws.com/init_prod/message',
 			dataType: 'json',
 			contentType: 'application/json',
 			data: JSON.stringify(data),
