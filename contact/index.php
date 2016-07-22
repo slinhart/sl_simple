@@ -26,7 +26,7 @@
 				<div class="form-group">
 					<div class="col-xs-12">
 						<div class="pull-right">
-							<button class="btn btn-primary" type="submit">Send</button>
+							<button class="btn btn-primary submit-btn" type="submit">Send</button>
 						</div>
 					</div>
 				</div>

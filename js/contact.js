@@ -1,8 +1,23 @@
 (function() {
+	// Disable form submission on 'enter' keypress
+	$('form input').on('keyup keypress', function(e) {
+		var keyCode = e.keyCode || e.which;
+		if (keyCode === 13) {
+			e.preventDefault();
+			return false;
+		}
+	});
+
+	// Handle form submission
 	$('.message-form').submit(function(e) {
 		e.preventDefault();
 
-		// TODO: Disable button here to avoid double submissions
+		if()
+
+		// Disable button to avoid double submissions
+		var $submitBtn = $(this).find('.submit-btn');
+		$submitBtn.prop('disabled', true);
+
 
 		var $email = $(this).find('.email-input');
 		var $message = $(this).find('.message-input');
