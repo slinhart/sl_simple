@@ -12,8 +12,6 @@
 	$('.message-form').submit(function(e) {
 		e.preventDefault();
 
-		if()
-
 		// Disable button to avoid double submissions
 		var $submitBtn = $(this).find('.submit-btn');
 		$submitBtn.prop('disabled', true);
@@ -37,9 +35,12 @@
 				$email.val('');
 				$message.val('');
 
+				$submitBtn.prop('disabled', false);
+
 				console.log('TODO: display proper success messsage');
 			},
 			error: function() {
+				$submitBtn.prop('disabled', false);
 				alert('An error occured submitting message.');
 			}
 		});
