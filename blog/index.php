@@ -83,7 +83,7 @@
 						<pre><code>var foo = myLocalObject;</code></pre>
 					<p>
 						Then you can inspect the values of the object at anytime through the console.
-						Ofcourse, you could accomplish the same thing by attaching your object to the window object in the source code, but their are disadvantages to that method. You would have to rebuild/reload your app to rewrite the source code, and you may forget to undo your modification and leave the object attached to the window.
+						Of course, you could accomplish the same thing by attaching your object to the window object in the source code, but their are disadvantages to that method. You would have to rebuild/reload your app to rewrite the source code, and you may forget to undo your modification and leave the object attached to the window.
 					</p>
 				</div>
 				<?php include('../partials/disqus_comments.php'); ?>
