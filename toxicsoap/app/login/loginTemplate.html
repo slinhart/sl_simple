@@ -1,0 +1,37 @@
+<div class="content-container">
+	<div class="centered-content">
+		<div class="login-container" ng-show="!isAuth">
+			<h1>Toxic Soap</h1>
+			<div class="phrase-container">
+				<span>"Knowing is half the battle..."</span>
+			</div>
+			<form class="form-horizontal" ng-submit="login()">
+				<div class="form-group">
+					<label class="col-xs-3 col-sm-2 control-label">Username</label>
+					<div class="col-xs-8 col-sm-9">
+						<input type="text" ng-model="username" class="form-control" />
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-xs-3 col-sm-2 control-label">Password</label>
+					<div class="col-xs-8 col-sm-9">
+						<input type="password" ng-model="password" class="form-control" />
+					</div>
+				</div>
+				<div class="error-message-container">
+					<span ng-show="displayError" class="error-message">Incorrect login information</span>
+				</div>
+				<div class="form-group">
+					<div class="col-xs-11">
+						<div class="pull-left col-xs-offset-2">
+							<a href="/toxicsoap/#/register" type="button" class="btn btn-link register-link">Register</a>
+						</div>
+						<div class="pull-right">
+							<button class="btn btn-primary login-btn" type="submit">Login</button>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
